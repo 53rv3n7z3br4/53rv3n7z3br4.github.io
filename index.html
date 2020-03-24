@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id="load"></div>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js'></script>
+<script>
+    var images = ['https://i.kym-cdn.com/photos/images/original/000/822/703/dfc.gif', 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.guim.co.uk%2Fimg%2Fmedia%2F327e46c3ab049358fad80575146be9e0e65686e7%2F0_0_1023_742%2Fmaster%2F1023.jpg%3Fwidth%3D300%26quality%3D85%26auto%3Dformat%26fit%3Dmax%26s%3D02632218051da209be64b27e96722c43&f=1&nofb=1' ,'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fk60.kn3.net%2Ftaringa%2FC%2F3%2F6%2F2%2FD%2F2%2Fvagonettas%2FE5E.jpg&f=1&nofb=1', 'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fi2.kym-cdn.com%2Fphotos%2Fimages%2Fnewsfeed%2F000%2F961%2F524%2F772.jpg', 'https://www.shropshirestar.com/resizer/pzHOlaj5tAVBR5rEWK0hEebnPPg=/1000x0/filters:quality(100)/arc-anglerfish-arc2-prod-shropshirestar-mna.s3.amazonaws.com/public/ZAQKXO5C4FBFJBV2CY7MQS43RI.jpg', 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia4.s-nbcnews.com%2Fj%2FMSNBC%2FComponents%2FVideo%2F201609%2Fa_ov_Pepe_160928.nbcnews-fp-1200-630.jpg&f=1&nofb=1', 'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fmedia.juiceonline.com%2Fwp-content%2Fuploads%2F2017%2F05%2F09161514%2Ftumblr_static_tumblr_static__640.jpg&f=1&nofb=1', 'http://i1.kym-cdn.com/photos/images/facebook/000/895/464/2a6.png'];
+    $('<img src="' + images[Math.floor(Math.random() * images.length)] + '" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">').appendTo('#load');
+</script>
+
+</body>
+</html>
